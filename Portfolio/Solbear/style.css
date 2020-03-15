@@ -1,0 +1,70 @@
+body{
+
+}
+
+.main-section{
+	height: 100vh;
+}
+
+.solbear-bg {
+  /* The image used */
+  background-image: url("../../assets/solbear/cityflying.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 30px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	color: white;
+}
+
+.centered>h1{
+	font-size: 70px;
+}
+
+.gallery{
+	background: gray;
+}
+
+.gallery>figure{
+	padding: 0;
+}
+
+.gallery>figure:nth-child(1){
+	clip-path: polygon(0 0, 95% 0, 100% calc(100% - 75px), 0 85%);
+
+}
+
+.gallery>figure:nth-child(2){
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+
+}
+
+.gallery>figure:nth-child(3){
+	clip-path: polygon(6% 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+
+}
+
+.gallery>figure:nth-child(6){
+	clip-path: polygon(0 6%, 0 86%, 90% 81%, 100% 0);
+	margin-top: -83px;
+}
+
+.gallery>figure:nth-child(5){
+	clip-path: polygon(0 14%, 0 86%, 90% 81%, 100% 6%);
+	margin-top: -123px;
+}
